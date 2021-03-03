@@ -37,4 +37,13 @@
 #Get-ExecutionPolicy -Scope User
 #Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
 #get-service -DisplayName *spool* | restart-Service   
-#Get-Service -DisplayName *print* -USER srv01, srv02, srv03, srv04 | select-object machinename, status, name, displayname | sort-object machinename                                                                                                                           
+#Get-Service -DisplayName *print* -USER srv01, srv02, srv03, srv04 | select-object machinename, status, name, displayname | sort-object machinename                                                           
+-----------------
+Get-Service *
+============
+we can get the all details of the services 
+
+Get-Service "wmi*" 
+===============
+we get the details of the perticular services only
+                                                              
