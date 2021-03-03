@@ -46,4 +46,11 @@ we can get the all details of the services
 Get-Service "wmi*" 
 ===============
 we get the details of the perticular services only
+
+>Get-Help Detalis
+
+#Get-ExecutionPolicy
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+Get-ExecutionPolicy
+
                                                               
